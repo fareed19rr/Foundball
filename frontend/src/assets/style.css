@@ -32,7 +32,7 @@ html {
   }
   
   .grid-item {
-    background-color: #FFFFFF;
+    background-color: #e90052;
     border-radius: 2rem;
     overflow: hidden;
     box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
@@ -59,12 +59,12 @@ html {
   .card-header  {
     font-size: 1.5rem;
     font-weight: 600;
-    background-color: #00417C !important; 
-    color: #ffffff;
+    background-color: #04f5ff !important; 
+    color: #e90052;
     margin-bottom: 1rem;
     border-bottom: none !important;
   }
  
   .card-content{
-    background-color: #00417C;
+    background-color: #04f5ff;
   }
