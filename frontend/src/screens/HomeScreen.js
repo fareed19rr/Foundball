@@ -226,7 +226,7 @@ const HomeScreen = (props) => {
                                                 </div>
                                             ))}
                                         </div>
-                                    ) : null}</div></div>) : (<h1>Data Tidak Ditemukan</h1></div>
+                                    ) : null}</div></div>) : (<h1></h1></div>
 
                             ) : (
                                 <div className="result-card flex-wrap d-flex justify-content-center w-100">
@@ -236,7 +236,7 @@ const HomeScreen = (props) => {
                                             <div className="grid-item">
                                                 <Link to={`/detail/${e.id}`}>
                                                     <div className="card">
-                                                        <img className="card-img" src={e.urlFoto} style={{ width: "80%", }} />
+                                                        <img className="card-img container-fluid" src={e.urlFoto} style={{ width: "80%", }} />
                                                         <div className="card-content">
                                                             <h1 className="card-header" style={{ textAlign: "center" }} >{e.title}</h1>
                                                         </div>
